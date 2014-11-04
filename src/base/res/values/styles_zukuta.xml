@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="EditTextZuKuTa" parent="android:Widget.EditText">
+	  <item name="android:background">@drawable/zukuta_edit_text_holo_light</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="CheckBoxZuKuTa" parent="android:Widget.CompoundButton.CheckBox">
+      <item name="android:button">@drawable/zukuta_btn_check_holo_light</item>
+  </style>
+
+  <style name="RadioButtonZuKuTa" parent="android:Widget.CompoundButton.RadioButton">
+      <item name="android:button">@drawable/zukuta_btn_radio_holo_light</item>
+  </style>
+
+  <style name="ButtonZuKuTa" parent="android:Widget.Button">
+	  <item name="android:background">@drawable/zukuta_btn_default_holo_light</item>
+	  <item name="android:minHeight">48dip</item>
+	  <item name="android:minWidth">64dip</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="ImageButtonZuKuTa" parent="android:Widget.ImageButton">
+	  <item name="android:background">@drawable/zukuta_btn_default_holo_light</item>
+  </style>
+
+  <style name="SpinnerZuKuTa" parent="android:Widget.Spinner">
+      <item name="android:background">@drawable/zukuta_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/zukuta_list_selector_holo_light</item>
+  </style>
+
+  <style name="SpinnerDropDownItemZuKuTa" parent="android:Widget.DropDownItem.Spinner">
+      <item name="android:checkMark">@drawable/zukuta_btn_radio_holo_light</item>
+  </style>
+  <style name="TabZuKuTa">
+      <item name="android:gravity">center_horizontal</item>
+      <item name="android:paddingLeft">16dip</item>
+      <item name="android:paddingRight">16dip</item>
+      <item name="android:background">@drawable/zukuta_tab_indicator_holo</item>
+      <item name="android:layout_width">0dip</item>
+      <item name="android:layout_weight">1</item>
+      <item name="android:minWidth">80dip</item>
+  </style>
+
+  <style name="TabTextZuKuTa">
+	  <item name="android:textColor">#000000</item>
+      <item name="android:textSize">12sp</item>
+      <item name="android:textStyle">bold</item>
+      <!-- v14 <item name="android:textAllCaps">true</item> -->
+      <item name="android:ellipsize">marquee</item>
+      <item name="android:maxLines">2</item>
+      <item name="android:maxWidth">180dip</item>
+  </style>
+
+  <style name="ProgressBarZuKuTa" parent="android:Widget.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/zukuta_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/zukuta_progress_indeterminate_horizontal_holo_light</item>
+      <item name="android:minHeight">16dip</item>
+      <item name="android:maxHeight">16dip</item>
+  </style>
+
+  <style name="SeekBarZuKuTa" parent="android:Widget.SeekBar">
+      <item name="android:progressDrawable">@drawable/zukuta_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/zukuta_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:minHeight">13dip</item>
+      <item name="android:maxHeight">13dip</item>
+      <item name="android:thumb">@drawable/zukuta_scrubber_control_selector_holo_light</item>
+      <item name="android:thumbOffset">16dip</item>
+      <item name="android:paddingLeft">16dip</item>
+      <item name="android:paddingRight">16dip</item>
+  </style>
+
+  <style name="RatingBarZuKuTa" parent="android:Widget.RatingBar">
+      <item name="android:progressDrawable">@drawable/zukuta_ratingbar_full_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/zukuta_ratingbar_full_holo_light</item>
+  </style>
+
+  <style name="ToggleZuKuTa" parent="android:Widget.Button.Toggle">
+      <item name="android:background">@drawable/zukuta_btn_toggle_holo_light</item>
+      <item name="android:minHeight">48dip</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="ListViewZuKuTa" parent="android:Widget.ListView">
+      <item name="android:listSelector">@drawable/zukuta_list_selector_holo_light</item>
+  </style>
+
+  <style name="ListViewZuKuTa.White" parent="android:Widget.ListView.White">
+      <item name="android:listSelector">@drawable/zukuta_list_selector_holo_light</item>
+  </style>
+
+  <style name="SpinnerItemZuKuTa" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+      <item name="android:textColor">#000000</item>
+  </style>
+
+</resources>

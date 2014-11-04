@@ -1,18 +1,39 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:tools="http://schemas.android.com/tools"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:padding="@dimen/activity_horizontal_margin"
-                android:background="@color/white"
-                tools:context=".StartActivity">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:background="@color/background"
+            tools:context=".StartActivity">
 
-    <ImageView
-        android:id="@+id/imgLogo"
-        android:layout_width="fill_parent"
-        android:layout_height="72dp"
-        android:layout_alignParentTop="true"
-        android:scaleType="fitCenter"
-        android:contentDescription="@string/logo"
-        android:src="@drawable/logo"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-</RelativeLayout>
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="fill_parent"
+            android:layout_height="72dp"
+            android:layout_margin="8dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/logo"/>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/box"
+            android:padding="8dp">
+
+            <include
+                android:id="@+id/sandbox"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                layout="@layout/sandbox"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="ZuKuTa" parent="@style/_ZuKuTa"/>
+
+  <style name="_ZuKuTa" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    <item name="android:editTextStyle">@style/EditTextZuKuTa</item>
+
+    <item name="android:textColorHighlight">#99e8554b</item>
+
+    <item name="android:checkboxStyle">@style/CheckBoxZuKuTa</item>
+
+    <item name="android:radioButtonStyle">@style/RadioButtonZuKuTa</item>
+
+    <item name="android:buttonStyle">@style/ButtonZuKuTa</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonZuKuTa</item>
+
+    <item name="android:spinnerStyle">@style/SpinnerZuKuTa</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemZuKuTa</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarZuKuTa</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarZuKuTa</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarZuKuTa</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleZuKuTa</item>
+
+    <item name="android:listViewStyle">@style/ListViewZuKuTa</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewZuKuTa.White</item>
+
+    <item name="android:spinnerItemStyle">@style/SpinnerItemZuKuTa</item>
+
+  </style>
+
+</resources>

@@ -3,5 +3,7 @@
 
     <string name="app_name">Zukunftstag</string>
     <string name="logo">Logo</string>
+    <string name="sample">Hallo</string>
+    <string name="button">Hallo</string>
 
 </resources>

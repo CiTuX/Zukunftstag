@@ -4,7 +4,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.13.3'
+        classpath 'com.android.tools.build:gradle:0.14.0'
     }
 }
 
@@ -21,6 +21,11 @@ android {
         versionCode 1
         versionName "1.0"
     }
+
+    productFlavors {
+        base
+    }
+
     buildTypes {
         release {
             runProguard false
