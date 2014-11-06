@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="background">#ffffff</color>
+    <color name="hintergrund">#ffffff</color>
     <color name="box">#dddddd</color>
-    <color name="red">#e8554b</color>
+    <color name="zukunftstag">#e8554b</color>
+    <color name="rot">#f44336</color>
+    <color name="pink">#e91e63</color>
+    <color name="lila">#9c27b0</color>
+    <color name="dunkellila">#673ab7</color>
+    <color name="indigo">#3f51b5</color>
+    <color name="blau">#2196f3</color>
+    <color name="hellblau">#03a9f4</color>
+    <color name="cyan">#00bcd4</color>
+    <color name="aquamarin">#009688</color>
+    <color name="green">#4caf50</color>
+    <color name="lightgreen">#8bc34a</color>
+    <color name="lime">#cddc39</color>
+    <color name="yellow">#ffeb3b</color>
 </resources>

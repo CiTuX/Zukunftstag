@@ -4,6 +4,149 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
+    <FrameLayout
+        android:background="@color/rot"
+        style="@style/ColorBox">
+
+        <TextView
+            android:text="Lorem"
+            android:textColor="#ff8a80"
+            style="@style/ColorBoxText"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="@color/pink"
+        style="@style/ColorBox">
+
+        <TextView
+            android:text="ipsum"
+            android:textColor="#ff80ab"
+            style="@style/ColorBoxText"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="@color/lila"
+        style="@style/ColorBox">
+
+        <TextView
+            android:text="tempus"
+            android:textColor="#ea80fc"
+            style="@style/ColorBoxText"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="@color/dunkellila"
+        style="@style/ColorBox">
+
+        <TextView
+            android:text="dolor"
+            android:textColor="#b388ff"
+            style="@style/ColorBoxText"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="@color/indigo"
+        style="@style/ColorBox">
+
+        <TextView
+            android:text="sit"
+            android:textColor="#8c9eff"
+            style="@style/ColorBoxText"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="@color/blau"
+        style="@style/ColorBox">
+
+        <TextView
+            android:text="amet"
+            android:textColor="#82b1ff"
+            style="@style/ColorBoxText"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="@color/hellblau"
+        style="@style/ColorBox">
+
+        <TextView
+            android:text="consectetuer"
+            android:textColor="#80d8ff"
+            style="@style/ColorBoxText"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="@color/cyan"
+        style="@style/ColorBox">
+
+        <TextView
+            android:text="adipiscing"
+            android:textColor="#84ffff"
+            style="@style/ColorBoxText"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="@color/aquamarin"
+        style="@style/ColorBox">
+
+        <TextView
+            android:text="elit"
+            android:textColor="#a7ffeb"
+            style="@style/ColorBoxText"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="@color/green"
+        style="@style/ColorBox">
+
+        <TextView
+            android:text="Aenean"
+            android:textColor="#b9f6ca"
+            style="@style/ColorBoxText"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="@color/lightgreen"
+        style="@style/ColorBox">
+
+        <TextView
+            android:text="commodo"
+            android:textColor="#ccff90"
+            style="@style/ColorBoxText"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="@color/lime"
+        style="@style/ColorBox">
+
+        <TextView
+            android:text="ligula"
+            android:textColor="#f4ff81"
+            style="@style/ColorBoxText"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="@color/yellow"
+        style="@style/ColorBox">
+
+        <TextView
+            android:text="eget"
+            android:textColor="#ffff8d"
+            style="@style/ColorBoxText"/>
+
+    </FrameLayout>
+
     <RatingBar
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
